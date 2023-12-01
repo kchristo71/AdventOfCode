@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_20231201._2</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="PuzzleInput.txt" />
+    <None Remove="PuzzleInput_Sample.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="PuzzleInput_Sample.txt" />
+    <EmbeddedResource Include="PuzzleInput.txt" />
+  </ItemGroup>
+
+</Project>
